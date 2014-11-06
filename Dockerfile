@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu:14.10
 MAINTAINER Chris Collins <collins.christopher@gmail.com>
 
 ENV DEBIAN_FRONTEND noninteractive
@@ -11,7 +11,7 @@ WORKDIR /node
 RUN ./configure
 RUN make
 RUN make install
-RUN npm install -g http-master
+RUN npm install --unsafe-perm -g http-master
 
 EXPOSE 80
 EXPOSE 443
