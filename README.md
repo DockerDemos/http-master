@@ -20,7 +20,7 @@ This will leave you with an http-master container running on your host, listenin
 
 ### Acknowledgments ###
 
-* Thanks to the CodeCharmLtd folks [\(https://github.com/CodeCharmLtd\)](https://github.com/CodeCharmLtd) for writing and developing http-master!
+* Thanks to the CodeCharmLtd folks [\(https://github.com/CodeCharmLtd\)](https://github.com/CodeCharmLtd) for developing and supporting http-master!
 
 ### Copyright Info ###
 
