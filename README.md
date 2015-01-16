@@ -16,7 +16,7 @@ This will leave you with an http-master container running on your host, listenin
 
 ### Known Issues ###
 
-* Build currently failing on the npm install.
+* None Reported
 
 ### Acknowledgments ###
 
@@ -28,7 +28,7 @@ This will leave you with an http-master container running on your host, listenin
 
 The Dockerfile and related code, scripts or documentation in this repository is:
 
-Copyright (C) 2014 Chris Collins
+Copyright (C) 2014-2015 Chris Collins
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 

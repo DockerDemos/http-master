@@ -3,9 +3,9 @@
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iEYEABECAAYFAlRbn80ACgkQte6EFif3vzfEkACgpGPX8p+4s0FNQnF1UKgQ9mPk
-yKcAnRHu7mssoNM33K+kfa5A/RaZVp1a
-=aE1d
+iEYEABECAAYFAlS5crYACgkQte6EFif3vzfQcwCgy/gA9itFMdZVoMclXbwO0wJL
+jSQAoJ5MgBhcvi8GHyx5pcvRabgG+rzL
+=GwKW
 -----END PGP SIGNATURE-----
 
 ```
@@ -17,11 +17,13 @@ yKcAnRHu7mssoNM33K+kfa5A/RaZVp1a
 #### Expect
 
 ```
-size   exec  file          contents                                                        
-             ./                                                                            
-549            Dockerfile  7b7d7a80b72d425882587a0890da4239ca1c6ee7096d5382ba4e7c38ec7ae67d
-35120          LICENSE     fe3eea6c599e23a00c08c5f5cb2320c30adc8f8687db5fcec9b79a662c53ff6b
-1784           README.md   785695e2382bd8e3b9a3c3c9a74a83e2cb695481dd9139dc70c57e80530a4500
+size   exec  file                     contents                                                                                                                         
+             ./                                                                                                                                                        
+17             .gitignore             a631eed2368ffa1e9e7032d23fa5d388e4d2b864afa60c6a08603903763c33dd                                                                 
+12288          .http-master.conf.swp  8ba140431d28b2b875d3982e0ecd06e404de062fcc2126d497eefff623f97bf9|42cdb97dbc5e202844dafdf6bc09d3b069ab2578d9928841ccea7e761b1d9925
+549            Dockerfile             7b7d7a80b72d425882587a0890da4239ca1c6ee7096d5382ba4e7c38ec7ae67d                                                                 
+35120          LICENSE                fe3eea6c599e23a00c08c5f5cb2320c30adc8f8687db5fcec9b79a662c53ff6b                                                                 
+1766           README.md              02a0d99f188af5b06946d9219dc07dca7ebac3531d71b623a89113e15283d27e                                                                 
 ```
 
 #### Ignore
