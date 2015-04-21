@@ -3,9 +3,9 @@
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iEYEABECAAYFAlS5crYACgkQte6EFif3vzfQcwCgy/gA9itFMdZVoMclXbwO0wJL
-jSQAoJ5MgBhcvi8GHyx5pcvRabgG+rzL
-=GwKW
+iEYEABECAAYFAlU2k8YACgkQte6EFif3vzdBDwCdHZek2j0CHyNTH3FGgm6KhlOX
+D7wAoNuzNH7GqudrUeM8UmXgPs1+7UIp
+=UupS
 -----END PGP SIGNATURE-----
 
 ```
@@ -17,13 +17,12 @@ jSQAoJ5MgBhcvi8GHyx5pcvRabgG+rzL
 #### Expect
 
 ```
-size   exec  file                     contents                                                                                                                         
-             ./                                                                                                                                                        
-17             .gitignore             a631eed2368ffa1e9e7032d23fa5d388e4d2b864afa60c6a08603903763c33dd                                                                 
-12288          .http-master.conf.swp  8ba140431d28b2b875d3982e0ecd06e404de062fcc2126d497eefff623f97bf9|42cdb97dbc5e202844dafdf6bc09d3b069ab2578d9928841ccea7e761b1d9925
-549            Dockerfile             7b7d7a80b72d425882587a0890da4239ca1c6ee7096d5382ba4e7c38ec7ae67d                                                                 
-35120          LICENSE                fe3eea6c599e23a00c08c5f5cb2320c30adc8f8687db5fcec9b79a662c53ff6b                                                                 
-1766           README.md              02a0d99f188af5b06946d9219dc07dca7ebac3531d71b623a89113e15283d27e                                                                 
+size   exec  file          contents                                                        
+             ./                                                                            
+30             .gitignore  87d1f3c78e787d7eab9e845d84b4cea383e4fe8734674a99906e3b45558b08a3
+614            Dockerfile  c63b12d221ec4e17f93aba11e85775fe665e85412570ced02beb77a6dc62d149
+35120          LICENSE     fe3eea6c599e23a00c08c5f5cb2320c30adc8f8687db5fcec9b79a662c53ff6b
+1765           README.md   822f7c64e66d2b282a316235dda4f3af23ef95bd648f8ac8894bc7c6c60442ee
 ```
 
 #### Ignore

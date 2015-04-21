@@ -1,13 +1,13 @@
 http-master
 ===========
 
-_v0.2 - 20141106_
+_v1.0 - 20150421_
 
 Docker image for building and running the excellent [http-master](https://github.com/CodeCharmLtd/http-master) in a container.
 
 ### Building and Running ###
 
-1. `git clone https://github.com/CodeCharmLtd/http-master.git`
+1. `git clone https://github.com/DockerDemos/http-master.git`
 2. Place your http-master.conf into ~/http-master/
 3. `sudo docker build -t http-master .`
 4. `sudo docker run -p 80:80 -p 443:443 -v ~/http-master:/etc/http-master -d http-master`
