@@ -3,9 +3,10 @@ MAINTAINER Chris Collins <collins.christopher@gmail.com>
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV NODE http://nodejs.org/dist/v0.12.2/node-v0.12.2.tar.gz
+ENV CONFIG_LOADER https://github.com/encharm/http-master-example-httploader.git
 
 RUN apt-get update && \
-    apt-get install -y curl python build-essential && \
+    apt-get install -y curl python git build-essential && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
@@ -15,11 +16,14 @@ WORKDIR /node
 RUN ./configure
 RUN make
 RUN make install
-RUN npm install --unsafe-perm -g http-master
+RUN npm install --unsafe-perm -g http-master request
+
+# Install the Config Loader
+RUN git clone $CONFIG_LOADER /config-loader
 
 EXPOSE 80
 EXPOSE 443
 
 VOLUME ["/etc/http-master"]
 
-ENTRYPOINT [ "http-master", "--config", "/etc/http-master/http-master.conf" ]
+ENTRYPOINT [ "http-master" ]
