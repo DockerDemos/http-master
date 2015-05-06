@@ -19,7 +19,9 @@ RUN make install
 RUN npm install --unsafe-perm -g http-master request
 
 # Install the Config Loader
+WORKDIR /config-loader
 RUN git clone $CONFIG_LOADER /config-loader
+RUN npm install
 
 EXPOSE 80
 EXPOSE 443
